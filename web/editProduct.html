@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Editing product</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+        <body>
+        <div style="background-color:#99ccff"><h2 align="center">Editing product:</h2></div>
+        <br><br>
+        <div align="center">
+            <p>type in ID of editing product, new name, price($) and stock:</p> 
+            <form action="EditProductServlet" method="post"> 
+            <input type="text" name="productID">
+            <input type="text" name="newNAME">
+            <input type="text" name="newPRICE" size="6">
+            <input type="text" name="newSTOCK" size="6">
+            <input type="submit" value="edit">
+            </form></div>
+    </body>
+</html>
